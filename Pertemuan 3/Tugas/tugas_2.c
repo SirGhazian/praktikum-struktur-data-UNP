@@ -6,15 +6,8 @@ struct Node {
     struct Node* next;
 };
 
-int isPrime(int num) {
-    if (num <= 1)
-        return 0;  // Not prime
-    for (int i = 2; i * i <= num; i++) {
-        if (num % i == 0)
-            return 0;  // Not prime
-    }
-    return 1;  // Prime
-}
+int isPrime(int num);
+void printList(struct Node* head);
 
 struct Node* generatePrimes(int n) {
     struct Node* head = NULL;
@@ -41,14 +34,6 @@ struct Node* generatePrimes(int n) {
     }
 
     return head;
-}
-
-void printList(struct Node* head) {
-    while (head != NULL) {
-        printf("%d ", head->data);
-        head = head->next;
-    }
-    printf("\n");
 }
 
 int main() {
@@ -78,4 +63,22 @@ int main() {
     }
 
     return 0;
+}
+
+int isPrime(int num) {
+    if (num <= 1)
+        return 0;  // Not prime
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0)
+            return 0;  // Not prime
+    }
+    return 1;  // Prime
+}
+
+void printList(struct Node* head) {
+    while (head != NULL) {
+        printf("%d ", head->data);
+        head = head->next;
+    }
+    printf("\n");
 }
