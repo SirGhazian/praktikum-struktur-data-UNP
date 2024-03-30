@@ -45,3 +45,31 @@ Array dalam bahasa pemrograman C dideklarasikan dengan menentukan tipe data elem
 
 ## <img height="70" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/5cfdedc7-f6c4-494c-9e29-a26075c557fb">
 
+## 1. Single Linked List
+Linked list adalah struktur data linier yang terdiri dari simpul-simpul data yang disusun secara berurutan. Setiap simpul memiliki dua bagian, yaitu data itu sendiri dan referensi/pointer ke simpul berikutnya dalam urutan.
+
+<img height="90" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/0ed40934-d066-41a4-83d8-0abd04e3bfce">
+
+### Cara Kerja:
+- Penambahan dan penghapusan elemen dari awal, tengah, atau akhir linked list.
+- Iterasi atau traversal dari awal ke akhir.
+
+## 2. Double Linked List
+Double linked list adalah jenis linked list di mana setiap simpul memiliki dua pointer, yaitu satu pointer yang menunjuk ke simpul sebelumnya dan satu pointer yang menunjuk ke simpul berikutnya dalam urutan.
+
+<img height="40" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/2bdf4f3a-dfb0-474b-8c19-a380d3a67deb">
+
+### Cara Kerja:
+- Penambahan dan penghapusan elemen dari awal, tengah, atau akhir double linked list.
+- Iterasi atau traversal maju dan mundur.
+
+## 3. Circular Linked List
+
+Circular linked list adalah linked list di mana pointer dari simpul terakhir menunjuk kembali ke simpul pertama, membuatnya menjadi siklik.
+
+<img height="53" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/afb207e2-6722-4be1-8acb-066bba53ca97">
+
+### Cara Kerja:
+- Penambahan dan penghapusan elemen dari awal, tengah, atau akhir circular linked list.
+- Iterasi atau traversal dari awal ke akhir, melintasi simpul yang bersifat siklik.
+
