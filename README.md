@@ -2,7 +2,7 @@
 ## Deskripsi
 
 Repository ini berisi kumpulan tugas-tugas pemrograman dalam bahasa C yang dikerjakan dalam mata kuliah Praktikum Struktur Data di bawah bimbingan Dosen Randi Proska Sandra, S.Pd, M.Sc. <br>
-Tugas-tugas ini dirancang untuk memperkuat pemahaman tentang konsep-konsep dasar algoritma serta penerapannya dalam bahasa pemrograman C++.
+Tugas-tugas ini dirancang untuk memperkuat pemahaman tentang konsep-konsep dasar struktur data serta penerapannya dalam bahasa pemrograman C.
 
 
 ##
