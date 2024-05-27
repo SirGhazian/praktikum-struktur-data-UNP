@@ -1,7 +1,7 @@
 ![header](https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/3b5d881e-4efa-49da-a988-638a0e6c5c1e)
 <img src="https://media.tenor.com/zhIZszouG8QAAAAi/line-divider.gif" width="100%" height="2px"/>
 
-## <img height="45" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/0ed1175e-d409-4a46-973e-7a81dc6f4f46">
+## <img height="45" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/d9a61082-49d0-4e54-a6a6-afe7678f8bd7">
 
 Shell sort adalah algoritma pengurutan yang merupakan perbaikan dari insertion sort. Algoritma ini bekerja dengan cara membandingkan dan menukar elemen-elemen yang dipisahkan oleh gap atau jarak tertentu. Gap ini secara bertahap dikurangi hingga akhirnya menjadi 1, di mana pada tahap ini algoritma menjadi setara dengan insertion sort. Proses ini membantu mengurangi jumlah pergeseran elemen yang diperlukan, sehingga meningkatkan efisiensi pengurutan terutama untuk dataset yang lebih besar. Shell sort dinamai dari penemunya, Donald Shell, yang memperkenalkannya pada tahun 1959.
 </br></br>
@@ -20,7 +20,7 @@ Berikut adalah penjelasan bagaimana shell sort bekerja pada Microsoft Excel:
 <br>
 
 ##
-## <img height="45" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6712d4f2-7a48-47fb-a66b-f1992d3fc651">
+## <img height="45" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/d1eb1bc2-4356-4e96-9a5b-957f9e4382b6">
 
 Quick sort adalah algoritma pengurutan yang efisien dan sering digunakan dalam pemrosesan data. Ini bekerja dengan membagi larik data menjadi dua bagian, kemudian mengurutkan setiap bagian secara terpisah. Proses pemisahan dilakukan dengan memilih elemen yang disebut sebagai "pivot", dan kemudian memindahkan elemen-elemen lainnya ke kiri atau ke kanan pivot berdasarkan nilai mereka dibandingkan dengan pivot tersebut. Proses ini terus diulang pada setiap bagian data yang lebih kecil hingga seluruh larik terurut.
 </br></br>
