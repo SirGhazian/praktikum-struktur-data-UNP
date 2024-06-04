@@ -1,7 +1,33 @@
+# Praktikum Struktur Data - Universitas Negeri Padang
+
+Repository ini berisi tugas-tugas dari modul mata kuliah Praktikum Struktur Data Universitas Negeri Padang yang dibimbing oleh pak dosen Randi Proska Sandra, S.Pd, M.Sc.
+
+## Tentang Modul
+
+Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplementasikan menggunakan bahasa pemrograman C. Program-program ini dibuat berdasarkan latihan-latihan yang bersumber dari modul, sehingga dapat membantu dalam memahami konsep dan penerapan bahasa C.
+</br></br>
+
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/5d3cd65e-0bbf-47cb-9e84-56bdc85e73fd">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/2606ea46-c5ef-4c08-b734-20245e844a89">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/0899c8c6-5684-4d05-9c02-1b1cad45d149">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f2bfbf46-9c85-4865-9cb2-4523065412b6">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/3154997a-4bcb-4d4b-8b82-bf643524464b">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/5aa25d6b-fb6f-4d16-9429-d8ba55475d56">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/60ca9a88-c3f3-48b8-8dbb-47a95577ff17">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/99e90c2e-b510-421d-badc-beea3356755a">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/943f08ae-9aed-4914-af50-5f69b012c0ae">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/b6883c77-9763-43d5-9c45-402bc25f3b88">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/70200d0f-99cf-4f1d-8a9b-b6952027f5a9">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/3ea50b61-5533-449d-90c2-aa585d11ba2a">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/b3433fad-785a-4cef-ad33-c0223f02114f">
+
+
+
+
 # Selamat Datang! 👋
 ## Deskripsi
 
-Repository ini berisi kumpulan tugas-tugas pemrograman dalam bahasa C yang dikerjakan dalam mata kuliah Praktikum Struktur Data di bawah bimbingan Dosen Randi Proska Sandra, S.Pd, M.Sc. <br>
+Repository ini berisi kumpulan tugas-tugas pemrograman dalam bahasa C yang dikerjakan dalam mata kuliah Praktikum Struktur Data di bawah bimbingan Dosen  <br>
 Tugas-tugas ini dirancang untuk memperkuat pemahaman tentang konsep-konsep dasar struktur data serta penerapannya dalam bahasa pemrograman C.
 
 
