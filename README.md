@@ -58,7 +58,11 @@ Saya menyambut kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan
 5. Buat pull request baru.
 
 ## Informasi Dosen
-Randi completed his graduate degree at the Graduate Institute of Network Learning Technology, National Central University, Taiwan. He is a lecturer in the Informatics Bachelor Program at Universitas Negeri Padang, with interests in learning analytics, UI/UX design, software engineering project management, AI-supported educational technologies, and educational data mining. He has training from Microsoft, INTEL, AWS, and the Python Institute, and is a Google Certified Educator and Adobe Creative Educator. Additionally, he tutors for the Educational Technology Program at the Indonesian Open University. Randi is a member of ACM, IAENG, and I-4.
+<img align="left" width="140" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/58bffcd0-9983-4a84-9fc6-857c625cb609">
+
+**Randi Proska Sandra, S.Pd, M.Sc** </br>
+`Lecturer in Informatics` </br></br>
+Randi completed his graduate degree at the Graduate Institute of Network Learning Technology, National Central University, Taiwan. He is a lecturer in the Informatics Bachelor Program at Universitas Negeri Padang, with interests in learning analytics, UI/UX design, software engineering project management, AI-supported educational technologies, and educational data mining. He has training from Microsoft, INTEL, AWS, and the Python Institute, and is a Google Certified Educator and Adobe Creative Educator.
 
 ## About
 Untuk bantuan dan pertanyaan, silahkan hubungi [Instagram](https://www.instagram.com/ghazian_tza/) saya.
