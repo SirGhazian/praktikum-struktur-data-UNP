@@ -9,7 +9,12 @@ Repository ini berisi tugas-tugas dari modul mata kuliah Praktikum Struktur Data
 <img align="right" alt="Coding" width="60" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/0d1d6e1a-91a2-4a33-8bc8-3a80fbcb54d4">
 
 Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplementasikan menggunakan bahasa pemrograman C. Program-program ini dibuat berdasarkan latihan-latihan yang bersumber dari modul, sehingga dapat membantu dalam memahami konsep dan penerapan bahasa C.
-</br>
+
+## Daftar Isi
+- [Kontribusi](#kontribusi)
+- [Informasi Dosen](#informasi-dosen)
+- [About & Help](#about)
+
 
 </a>
 <hr/> 
@@ -51,6 +56,9 @@ Saya menyambut kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan
 3. Commit perubahan Anda: `git commit -am 'Menambahkan fitur baru'`.
 4. Push ke branch: `git push origin fitur-anda`.
 5. Buat pull request baru.
+
+## Informasi Dosen
+Randi completed his graduate degree at the Graduate Institute of Network Learning Technology, National Central University, Taiwan. He is a lecturer in the Informatics Bachelor Program at Universitas Negeri Padang, with interests in learning analytics, UI/UX design, software engineering project management, AI-supported educational technologies, and educational data mining. He has training from Microsoft, INTEL, AWS, and the Python Institute, and is a Google Certified Educator and Adobe Creative Educator. Additionally, he tutors for the Educational Technology Program at the Indonesian Open University. Randi is a member of ACM, IAENG, and I-4.
 
 ## About
 Untuk bantuan dan pertanyaan, silahkan hubungi [Instagram](https://www.instagram.com/ghazian_tza/) saya.
