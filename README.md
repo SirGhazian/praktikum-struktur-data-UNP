@@ -1,4 +1,6 @@
-<h1> Praktikum Struktur Data - Universitas Negeri Padang </h1> 
+<p align="center">
+<img height="100" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/b0cc2806-e5ad-47a0-9fb9-17aae3b2ebaf">
+</p>
 <img src="https://media.tenor.com/zhIZszouG8QAAAAi/line-divider.gif" width="100%" height="2px"/>
 
 Repository ini berisi tugas-tugas dari modul mata kuliah Praktikum Struktur Data Universitas Negeri Padang yang dibimbing oleh pak dosen Randi Proska Sandra, S.Pd, M.Sc.
@@ -11,7 +13,7 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 </a>
 <hr/> 
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/5d3cd65e-0bbf-47cb-9e84-56bdc85e73fd">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f36455e4-c903-42b8-b9ff-429f1e3d314a">
 Pada Jobsheet 1, materi yang dibahas adalah berbagai konsep dasar dan penting dalam pemrograman C yang akan membantu kita memahami dan mengimplementasikan struktur data dengan lebih efektif. Materi yang dibahas meliputi:
 
 1. **Pointer, Struct, dan Array**: Kita akan mempelajari konsep pointer yang memungkinkan kita untuk mengakses dan memanipulasi data dalam memori secara langsung. Selain itu, kita juga akan belajar bagaimana mendefinisikan dan menggunakan struct untuk mengelompokkan berbagai tipe data dalam satu kesatuan, serta mengelola array untuk menyimpan kumpulan data yang berjenis sama.
@@ -27,21 +29,18 @@ Dengan menyelesaikan Jobsheet 1 ini, kita akan memperoleh pemahaman yang mendala
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/2606ea46-c5ef-4c08-b734-20245e844a89">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/0899c8c6-5684-4d05-9c02-1b1cad45d149">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f2bfbf46-9c85-4865-9cb2-4523065412b6">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/3154997a-4bcb-4d4b-8b82-bf643524464b">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/5aa25d6b-fb6f-4d16-9429-d8ba55475d56">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/60ca9a88-c3f3-48b8-8dbb-47a95577ff17">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/99e90c2e-b510-421d-badc-beea3356755a">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/943f08ae-9aed-4914-af50-5f69b012c0ae">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/b6883c77-9763-43d5-9c45-402bc25f3b88">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/70200d0f-99cf-4f1d-8a9b-b6952027f5a9">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/3ea50b61-5533-449d-90c2-aa585d11ba2a">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/b3433fad-785a-4cef-ad33-c0223f02114f">
-
-
-
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/154bdf8c-6c20-4401-ab8b-2daec584eb1c">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/8b280a80-fb87-483e-b053-2625eb6a7b8b">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/47fc03ce-4c33-4f8a-bffd-0c3bb65bfcc3">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/4253d696-acba-49ec-8579-a95d35666747">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/88657d6f-1873-4306-9265-cb8fb76e7466">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/e679486d-7624-4caf-b7d3-06dee1e2b994">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/77f59d7a-d0bf-442a-80e8-0fb7595513c7">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f257220c-951b-4926-97b7-35d4eb960045">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/ace3e92e-606b-49cf-89ff-f9121e64c33e">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/336e7ade-ebbc-4df9-9abb-9332f57e10aa">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/a053617b-cbc1-484d-88fe-2d9de0b817c0">
 
 # Selamat Datang! 👋
 ## Deskripsi
