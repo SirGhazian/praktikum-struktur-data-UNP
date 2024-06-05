@@ -42,16 +42,14 @@ Dengan menyelesaikan Jobsheet 1 ini, kita akan memperoleh pemahaman yang mendala
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/336e7ade-ebbc-4df9-9abb-9332f57e10aa">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/a053617b-cbc1-484d-88fe-2d9de0b817c0">
 
-# Selamat Datang! 👋
-## Deskripsi
 
-Repository ini berisi kumpulan tugas-tugas pemrograman dalam bahasa C yang dikerjakan dalam mata kuliah Praktikum Struktur Data di bawah bimbingan Dosen  <br>
-Tugas-tugas ini dirancang untuk memperkuat pemahaman tentang konsep-konsep dasar struktur data serta penerapannya dalam bahasa pemrograman C.
+## Kontribusi
+Saya menyambut kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan fork repository ini, buat branch baru untuk perubahan Anda, dan ajukan pull request. Pastikan untuk memberikan deskripsi yang jelas tentang apa yang Anda ubah dan mengapa.
+1. Fork repository ini.
+2. Buat branch fitur baru: `git checkout -b fitur-anda`.
+3. Commit perubahan Anda: `git commit -am 'Menambahkan fitur baru'`.
+4. Push ke branch: `git push origin fitur-anda`.
+5. Buat pull request baru.
 
-
-##
 ## About
-
-![Logo](https://unp.ac.id/nfs-assets/all/images/logo_unp_white.png)
-
 Untuk bantuan dan pertanyaan, silahkan hubungi [Instagram](https://www.instagram.com/ghazian_tza/) saya.
