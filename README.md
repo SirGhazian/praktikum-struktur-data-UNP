@@ -20,6 +20,8 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 <hr/> 
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f36455e4-c903-42b8-b9ff-429f1e3d314a">
+`✦ Pengenalan Struktur Data ✦`
+
 Pada Jobsheet 1, materi yang dibahas adalah berbagai konsep dasar dan penting dalam pemrograman C yang akan membantu kita memahami dan mengimplementasikan struktur data dengan lebih efektif. Materi yang dibahas meliputi:
 
 1. **Pointer, Struct, dan Array**: Kita akan mempelajari konsep pointer yang memungkinkan kita untuk mengakses dan memanipulasi data dalam memori secara langsung. Selain itu, kita juga akan belajar bagaimana mendefinisikan dan menggunakan struct untuk mengelompokkan berbagai tipe data dalam satu kesatuan, serta mengelola array untuk menyimpan kumpulan data yang berjenis sama.
@@ -35,8 +37,68 @@ Dengan menyelesaikan Jobsheet 1 ini, kita akan memperoleh pemahaman yang mendala
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/154bdf8c-6c20-4401-ab8b-2daec584eb1c">
+
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/154bdf8c-6c20-4401-ab8b-2daec584eb1c">  
+`✦ Array, Pointer, Structure ✦`
+
+### ⭒ Array
+Array adalah kumpulan elemen yang memiliki tipe data yang sama dan disimpan dalam memori yang berdekatan. Setiap elemen dalam array dapat diakses menggunakan indeks, di mana indeks pertama dimulai dari 0.
+
+Contoh:
+```
+int arr[5];          // Deklarasi array integer dengan 5 elemen
+int arr2[5] = {1, 2, 3, 4, 5};  // Deklarasi dan inisialisasi array
+```
+
+### ⭒ Pointer
+Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Dengan menggunakan pointer, kita bisa mengakses dan memanipulasi data yang disimpan di lokasi memori tertentu.
+
+Contoh:
+```
+int a = 10;
+int *p = &a; // Pointer p menyimpan alamat memori dari variabel a
+```
+
+### ⭒ Struct
+Structure adalah kumpulan dari variabel yang dapat memiliki tipe data yang berbeda-beda, dikelompokkan di bawah satu nama. Structure memungkinkan kita untuk mengelompokkan beberapa data yang berbeda dalam satu unit logis.
+
+Contoh:
+```
+struct Person {
+    char name[50];
+    int age;
+    float height;
+};
+```
+</br>
+</a>
+<hr/>
+
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/8b280a80-fb87-483e-b053-2625eb6a7b8b">
+`✦ Single Linked List ✦`
+
+### ⭒ Single Linked List
+Single Linked List adalah salah satu jenis struktur data yang terdiri dari rangkaian elemen yang disebut node. Setiap node dalam single linked list memiliki dua komponen utama: data dan pointer yang menunjuk ke node berikutnya dalam urutan. Struktur ini memungkinkan penyimpanan data secara dinamis dan sekuensial.
+
+**Komponen Utama Single Linked List:**
+- Node: Elemen dasar dari linked list yang terdiri dari dua bagian:
+  - Data: Menyimpan nilai atau informasi.
+  - Pointer: Menunjuk ke node berikutnya dalam list.
+- Head: Pointer yang menunjuk ke node pertama dalam linked list. Jika linked list kosong, head akan menunjuk ke NULL.
+
+Contoh:
+```
+new_node->data = new_data;
+new_node->next = (*head_ref);
+(*head_ref) = new_node;
+```
+
+
+
+
+
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/47fc03ce-4c33-4f8a-bffd-0c3bb65bfcc3">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/4253d696-acba-49ec-8579-a95d35666747">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/88657d6f-1873-4306-9265-cb8fb76e7466">
