@@ -406,9 +406,9 @@ Di sini, data adalah nilai yang disimpan dalam simpul, left adalah pointer ke ch
 ### ⭒ Graphs
 
 Graphs adalah struktur data yang terdiri dari simpul-simpul yang terhubung melalui tepian atau edge. Setiap simpul dapat memiliki nilai atau atribut yang terkait dengannya. Graphs bisa direpresentasikan menggunakan matriks ketetanggaan atau daftar ketetanggaan. Operasi umum pada Graphs meliputi penambahan simpul, penambahan tepi, pencarian jalur, dan traversal untuk melakukan operasi pada setiap simpul atau tepi.
-
 </br>
 </a>
+<hr/>
 <hr/>
 
 ## Kontribusi
