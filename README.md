@@ -359,13 +359,57 @@ Berikut adalah penjelasan bagaimana quick sort bekerja pada aplikasi Spotify:
 3. **Rekursi**: Setelah pembagian ini dilakukan, algoritma Quick Sort akan memanggil dirinya sendiri secara rekursif untuk mengurutkan dua subarray tersebut. Proses ini akan terus berlanjut sampai subarray memiliki ukuran yang cukup kecil untuk dianggap sudah terurut (misalnya, subarray hanya memiliki satu elemen).
 4. **Penggabungan**: Setelah seluruh subarray terurut, mereka digabungkan kembali menjadi satu array yang terurut. Ini relatif mudah dilakukan karena subarray-subarray ini sebelumnya sudah diurutkan.
 
-
-
+</br>
+</a>
+<hr/>
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/ace3e92e-606b-49cf-89ff-f9121e64c33e" id="jobsheet-11">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/336e7ade-ebbc-4df9-9abb-9332f57e10aa" id="jobsheet-12">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/a053617b-cbc1-484d-88fe-2d9de0b817c0" id="jobsheet-13">
+`✦ Linear Search and Binary Search ✦`
 
+### ⭒ Linear Search
+
+Linear search, atau pencarian beruntun, adalah metode pencarian yang paling sederhana. Algoritma ini bekerja dengan membandingkan setiap elemen dalam array satu per satu secara berurutan hingga elemen yang dicari ditemukan atau hingga mencapai akhir array. Metode ini sangat efektif untuk dataset kecil, tetapi menjadi tidak efisien untuk dataset yang besar karena waktu pencariannya linear terhadap jumlah elemen.
+
+### ⭒ Binary Search
+
+Binary search, atau pencarian biner, adalah metode pencarian yang lebih efisien dibandingkan linear search, tetapi memerlukan array yang sudah diurutkan. Algoritma ini bekerja dengan membagi array menjadi dua bagian dan membandingkan elemen tengah dengan elemen yang dicari. Jika elemen yang dicari lebih kecil dari elemen tengah, pencarian dilanjutkan pada setengah bagian kiri, dan sebaliknya. Proses ini diulang hingga elemen ditemukan atau ruang pencarian tidak dapat dibagi lagi.
+
+</br>
+</a>
+<hr/>
+
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/336e7ade-ebbc-4df9-9abb-9332f57e10aa" id="jobsheet-12">
+`✦ Tree ✦`
+
+### ⭒ Tree
+
+Pohon/tree adalah struktur data hierarkis yang terdiri dari simpul (nodes/vertex), dengan satu simpul utama disebut akar (root), dan simpul-simpul lainnya merupakan anak (child) yang terhubung melalui cabang (edges). Setiap simpul dapat memiliki nol atau lebih anak, dan tree tidak boleh mengandung siklus (cycles).
+
+**Berikut adalah contoh struktur data simpul tree:**
+```
+struct TreeNode {
+    int data;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
+```
+
+Di sini, data adalah nilai yang disimpan dalam simpul, left adalah pointer ke child kiri, dan right adalah pointer ke child kanan.
+
+</br>
+</a>
+<hr/>
+
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/a053617b-cbc1-484d-88fe-2d9de0b817c0" id="jobsheet-13">
+`✦ Graphs ✦`
+
+### ⭒ Graphs
+
+Graphs adalah struktur data yang terdiri dari simpul-simpul yang terhubung melalui tepian atau edge. Setiap simpul dapat memiliki nilai atau atribut yang terkait dengannya. Graphs bisa direpresentasikan menggunakan matriks ketetanggaan atau daftar ketetanggaan. Operasi umum pada Graphs meliputi penambahan simpul, penambahan tepi, pencarian jalur, dan traversal untuk melakukan operasi pada setiap simpul atau tepi.
+
+</br>
+</a>
+<hr/>
 
 ## Kontribusi
 Saya menyambut kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan fork repository ini, buat branch baru untuk perubahan Anda, dan ajukan pull request. Pastikan untuk memberikan deskripsi yang jelas tentang apa yang Anda ubah dan mengapa.
