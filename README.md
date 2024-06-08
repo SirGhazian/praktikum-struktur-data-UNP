@@ -216,10 +216,141 @@ Dengan menggunakan queue, kita dapat mengelola data dengan cara yang efisien, te
 </a>
 <hr/>
 
-
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b">
+`✦ Bubble and Insertion Sort ✦` 
+
+### ⭒ Bubble Sort
+
+Bubble sort adalah salah satu algoritma pengurutan sederhana yang bekerja dengan membandingkan dan menukar secara berulang posisi dari elemen-elemen yang berdekatan dalam suatu daftar atau array, hingga seluruh daftar terurut. Algoritma ini berulang kali melintasi daftar, membandingkan pasangan elemen berturut-turut, dan menukar mereka jika urutannya salah. Proses ini berlanjut hingga tidak ada lagi pertukaran yang diperlukan, menunjukkan bahwa daftar sudah terurut.
+</br></br>
+
+<img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/d6a72a1f-245b-4809-ad7e-2247b89d9787">
+
+</br></br>
+Salah satu contoh penggunaan aplikasi yang menggunakan algoritma bubble sort, seperti dalam pencarian rute tercepat Google Maps, terletak pada proses pengurutan data. Algoritma bubble sort membandingkan dua elemen data secara berurutan dan menukar posisi mereka jika diperlukan, sehingga elemen-elemen dengan nilai yang lebih besar bergerak ke bagian akhir. Dalam konteks pencarian rute, aplikasi seperti Google Maps memanfaatkan algoritma kurang lebih algoritma bubble sort untuk mengurutkan pilihan rute berdasarkan berbagai faktor seperti jarak, waktu tempuh, dan kondisi lalu lintas, yang pada akhirnya memberikan pengguna pilihan rute tercepat atau terdekat.
+
+Berikut adalah penjelasan bagaimana bubble sort bekerja pada pencarian rute Google Maps:
+1. **Inisialisasi**: Pertama, setiap rute dalam map direpresentasikan sebagai simpul (node) dalam graf. Setiap simpul memiliki keterhubungan dengan simpul-simpul lain yang mewakili jalur-jalur yang bisa diambil dari satu titik ke titik lain.
+2. **Perulangan**: Algoritma bubble sort mengulangi langkah-langkah berikut sampai tidak ada lagi pertukaran yang dilakukan:
+   - Iterasi melalui setiap pasangan simpul berurutan.
+   - Membandingkan bobot atau jarak dari dua simpul yang berdekatan.
+   - Jika bobot simpul pertama lebih besar dari simpul kedua (dalam konteks pencarian rute, ini berarti rute yang sedang dipertimbangkan lebih panjang dari rute berikutnya), maka kedua simpul tersebut ditukar.
+3. **Pengecekan**: Setelah satu iterasi selesai, algoritma memeriksa apakah ada pertukaran yang dilakukan. Jika tidak ada pertukaran yang dilakukan dalam satu iterasi, ini berarti data sudah terurut, dan algoritma dihentikan.
+4. **Penerapan pada Pencarian Rute Map**: Dalam konteks pencarian rute map, bobot atau jarak antara simpul-simpul mungkin adalah jarak fisik antara lokasi yang dihubungkan oleh rute tersebut. Bubble sort dapat digunakan untuk mengurutkan rute-rute berdasarkan jaraknya. Misalnya, jika kita ingin mencari rute terpendek dari titik A ke titik B, algoritma bubble sort dapat membantu kita mengurutkan daftar rute yang mungkin dari yang terpendek hingga yang terpanjang.
+<br>
+
+### ⭒ Insertion Sort
+
+Insertion search, atau pencarian sisipan, adalah algoritma pencarian sederhana yang bekerja dengan mengurutkan data dan mencari posisi yang tepat untuk menyisipkan elemen yang ingin dicari. Ini sering digunakan pada data yang sudah diurutkan, karena bekerja secara efisien dalam kasus tersebut. Algoritma ini membandingkan elemen yang dicari dengan elemen-elemen dalam urutan tertentu untuk menentukan posisi sisipannya, kemudian memasukkan elemen tersebut ke dalam urutan tersebut.
+</br></br>
+
+<img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/23d8a88e-e744-422b-9ce2-13ae9f613893">
+
+</br></br>
+Salah satu contoh penerapan algoritma insertion search dalam konteks aplikasi Bank BCA Mobile, adalah pada fitur pencarian transaksi. Ketika pengguna ingin mencari transaksi tertentu dalam riwayat transaksi mereka, algoritma insertion search dapat digunakan untuk mencari dan menemukan transaksi tersebut secara efisien dalam daftar transaksi yang sudah diurutkan berdasarkan tanggal atau jenis transaksi. Dengan demikian, pengguna dapat dengan cepat menemukan informasi yang mereka butuhkan tanpa harus secara manual melalui seluruh riwayat transaksi mereka.
+
+Berikut adalah penjelasan bagaimana insertion sort bekerja pada aplikasi BCA Mobile:
+
+1. **Pengumpulan Data**: Aplikasi manajemen bank akan mengumpulkan data transaksi dari berbagai sumber, seperti mesin ATM, transfer online, atau transaksi yang dilakukan di cabang bank.
+2. **Pemrosesan Data**: Data transaksi yang dikumpulkan akan disimpan dalam sebuah struktur data, seperti array atau linked list, yang memungkinkan untuk menyimpan informasi tanggal transaksi.
+3. **Pemilihan Algoritma**: Setelah data transaksi dikumpulkan, aplikasi akan memilih algoritma pengurutan yang sesuai. Dalam hal ini, insertion sort dipilih karena sederhana dan efisien untuk jumlah data yang relatif kecil atau jika data hampir terurut.
+4. **Implementasi Insertion Sort**: Langkah-langkah implementasi insertion sort sebagai berikut:
+   - Pertama, transaksi pertama dianggap sebagai bagian dari sublist terurut.
+   - Kemudian, aplikasi akan memeriksa transaksi kedua dan membandingkannya dengan transaksi pertama. Jika transaksi kedua memiliki tanggal yang lebih awal, maka akan ditukar posisinya sehingga transaksi kedua berada di posisi yang tepat dalam sublist terurut.
+   - Proses ini akan berlanjut untuk setiap transaksi dalam daftar, dimana setiap transaksi akan dimasukkan ke dalam sublist terurut yang semakin bertambah panjang.
+   - Pada setiap langkah, insertion sort memastikan bahwa sublist terurut tetap terurut saat transaksi baru dimasukkan.
+   - Akhirnya, semua transaksi akan terurut berdasarkan tanggal.
+5. Penyimpanan Data Terurut: Setelah proses pengurutan selesai, data transaksi yang sudah terurut berdasarkan tanggal akan disimpan kembali dalam struktur data yang sesuai, seperti array atau linked list.
+6. **Akses Data Terurut**: Setelah penyimpanan, data transaksi yang terurut dapat diakses dengan mudah untuk keperluan pelaporan, analisis, atau keperluan lainnya dalam manajemen bank.
+
+</br>
+</a>
+<hr/>
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/77f59d7a-d0bf-442a-80e8-0fb7595513c7">
+`✦ Selection and Merge Sort ✦` 
+
+### ⭒ Selection Sort
+
+Algoritma Selection Sort adalah salah satu algoritma pengurutan yang sederhana namun cukup efisien untuk daftar dengan jumlah elemen yang kecil. Algoritma ini bekerja dengan cara mencari elemen terkecil (atau terbesar, tergantung pada jenis pengurutan yang diinginkan) dari daftar dan menempatkannya di posisi yang benar. Proses ini diulangi untuk elemen-elemen yang tersisa hingga seluruh daftar terurut.
+</br></br>
+
+<img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/cedf7e28-a412-435f-883c-1bb4c20d88fe">
+
+</br></br>
+Agoda adalah salah satu aplikasi pemesanan hotel terkemuka di dunia yang menawarkan berbagai macam akomodasi, mulai dari hotel mewah hingga penginapan budget-friendly di destinasi wisata di seluruh dunia. Dalam konteks aplikasi ini, algoritma selection sort dapat digunakan untuk membantu pengguna dalam menemukan akomodasi yang paling sesuai dengan preferensi dan kebutuhan mereka.
+
+Berikut adalah penjelasan bagaimana selection sort bekerja pada pengurutan hotel berdasarkan harga:
+1. **Inisialisasi Daftar Hotel**: Misalkan kita memiliki daftar hotel dengan harga per malam yang perlu diurutkan.
+2. **Langkah Pertama**: Pilih harga hotel pertama sebagai harga termurah sementara.
+3. **Pencarian Harga Terkecil**: Bandingkan harga hotel pertama ini dengan semua harga hotel lainnya. Jika ditemukan harga yang lebih murah, catat indeks hotel dengan harga termurah tersebut.
+4. **Tukar Posisi**: Setelah membandingkan semua harga, tukar posisi hotel pertama dengan hotel yang memiliki harga termurah.
+5. **Ulangi untuk Elemen Berikutnya**: Pindah ke hotel kedua dalam daftar dan ulangi proses hingga semua hotel terurutkan berdasarkan harga.
+<br>
+
+### ⭒ Merge Sort
+
+Merge sort adalah algoritma pengurutan yang bekerja dengan membagi array yang akan diurutkan menjadi dua bagian, mengurutkan masing-masing bagian secara rekursif, dan kemudian menggabungkan kedua bagian tersebut menjadi satu array terurut. Ini adalah contoh algoritma divide and conquer.
+</br></br>
+
+<img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/df706b4e-5307-405b-8dfb-8d074b1455be">
+
+</br></br>
+Dalam konteks aplikasi Photoshop atau perangkat lunak pengolah gambar lainnya, Merge Sort mungkin tidak digunakan secara langsung oleh pengguna saat berinteraksi dengan antarmuka pengguna. Namun, Merge Sort dapat menjadi bagian dari algoritma yang digunakan oleh Photoshop di belakang layar saat melakukan operasi tertentu.
+
+Salah satu contoh penggunaan Merge Sort di dalam Photoshop adalah ketika pengguna melakukan operasi pengurutan layer. Saat pengguna memiliki banyak layer dalam proyek gambar, mereka mungkin perlu mengurutkan layer berdasarkan berbagai kriteria, seperti nama, ukuran, opasitas, atau mode campuran.
+
+Berikut adalah penjelasan bagaimana merge sort bekerja pada aplikasi Photoshop:
+1. **Persiapan Data**: Photoshop akan mengumpulkan informasi tentang setiap layer dalam proyek, seperti nama, ukuran, opasitas, dll., dan menyimpannya dalam struktur data yang sesuai.
+2. **Pemilihan Kriteria**: Pengguna memilih kriteria berdasarkan yang mereka ingin mengurutkan layer, misalnya, pengguna memilih untuk mengurutkan layer berdasarkan nama.
+3. **Penggunaan Merge Sort**: Setelah kriteria pengurutan ditentukan, Photoshop menggunakan algoritma Merge Sort untuk mengurutkan daftar layer sesuai dengan kriteria yang dipilih.
+4. **Pembaruan Tampilan**: Setelah pengurutan selesai, Photoshop akan memperbarui tampilan antarmuka pengguna untuk mencerminkan urutan baru dari layer-layer tersebut.
+5. **Sinkronisasi Data**: Photoshop juga harus memastikan bahwa perubahan urutan layer di antarmuka pengguna disinkronkan dengan perubahan yang sesuai dalam struktur data proyek.
+
+
+
+
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f257220c-951b-4926-97b7-35d4eb960045">
+`✦ Shell Sort and Quick Sort ✦` 
+
+### ⭒ Shell Sort
+
+Shell sort adalah algoritma pengurutan yang merupakan perbaikan dari insertion sort. Algoritma ini bekerja dengan cara membandingkan dan menukar elemen-elemen yang dipisahkan oleh gap atau jarak tertentu. Gap ini secara bertahap dikurangi hingga akhirnya menjadi 1, di mana pada tahap ini algoritma menjadi setara dengan insertion sort. Proses ini membantu mengurangi jumlah pergeseran elemen yang diperlukan, sehingga meningkatkan efisiensi pengurutan terutama untuk dataset yang lebih besar. Shell sort dinamai dari penemunya, Donald Shell, yang memperkenalkannya pada tahun 1959.
+</br></br>
+
+<img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/ed448c66-1746-4e5e-9be9-126189170e31">
+
+</br></br>
+Microsoft Excel adalah program spreadsheet yang dikembangkan oleh perusahaan teknologi Microsoft. Ini merupakan bagian dari paket perangkat lunak Microsoft Office. Excel memungkinkan pengguna untuk membuat, mengatur, dan menganalisis data dalam bentuk tabel atau lembar kerja elektronik. Pengguna dapat melakukan berbagai tugas seperti penghitungan, visualisasi data, pembuatan grafik, dan analisis data dengan menggunakan fungsi dan formula yang disediakan.
+
+Berikut adalah penjelasan bagaimana shell sort bekerja pada Microsoft Excel:
+1. **Memilih Jarak Incremental**: Pertama-tama, algoritma ini memilih serangkaian jarak incremental yang akan digunakan untuk memisahkan elemen-elemen dalam array. Ini dilakukan untuk mempercepat proses pengurutan dengan memungkinkan elemen-elemen yang jauh berdekatan untuk dibandingkan dan ditukar.
+2. **Pengurutan dengan Insertion Sort**: Setelah jarak-jarak incremental ditentukan, algoritma mulai melakukan pengurutan menggunakan metode Insertion Sort untuk setiap subset data yang terpisah oleh jarak-jarak tersebut. Insertion Sort bekerja dengan cara membandingkan elemen-elemen yang berdekatan dan menukar mereka jika diperlukan untuk memastikan urutan yang benar.
+3. **Pengurutan Berulang**: Proses pengurutan dengan Insertion Sort dilakukan berulang kali dengan jarak-jarak incremental yang semakin kecil setiap kali iterasi. Ini memungkinkan elemen-elemen untuk bergerak menuju posisi mereka yang tepat secara bertahap.
+4. **Penggabungan**: Setelah beberapa iterasi dengan jarak-jarak incremental yang berkurang, algoritma akhirnya melakukan pengurutan akhir dengan jarak incremental yang sama dengan 1. Pada titik ini, pengurutan sudah hampir selesai dan hanya memerlukan sedikit langkah tambahan untuk menyelesaikannya.
+5. **Pengurutan Akhir**: Dalam langkah terakhir, algoritma melakukan pengurutan akhir dengan menggunakan metode Insertion Sort pada seluruh array. Karena array sudah dalam keadaan hampir terurut, langkah ini memerlukan sedikit operasi dan memastikan bahwa array diurutkan secara keseluruhan.
+<br>
+
+### ⭒ Quick Sort
+
+Quick sort adalah algoritma pengurutan yang efisien dan sering digunakan dalam pemrosesan data. Ini bekerja dengan membagi larik data menjadi dua bagian, kemudian mengurutkan setiap bagian secara terpisah. Proses pemisahan dilakukan dengan memilih elemen yang disebut sebagai "pivot", dan kemudian memindahkan elemen-elemen lainnya ke kiri atau ke kanan pivot berdasarkan nilai mereka dibandingkan dengan pivot tersebut. Proses ini terus diulang pada setiap bagian data yang lebih kecil hingga seluruh larik terurut.
+</br></br>
+
+<img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/1f892388-2dd5-4ead-836e-ec78f8fddbdc">
+
+</br></br>
+Spotify adalah layanan streaming musik digital yang memungkinkan pengguna untuk mendengarkan jutaan lagu dari berbagai genre, artis, dan album secara online. Pengguna dapat mengakses musik melalui aplikasi desktop, web, atau perangkat seluler dengan langganan bulanan. Layanan ini menawarkan fitur seperti membuat daftar putar pribadi, menemukan musik baru melalui rekomendasi berbasis algoritma.
+
+Berikut adalah penjelasan bagaimana quick sort bekerja pada aplikasi Spotify:
+1. **Pemilihan Elemen Pembanding (Pivot)**: Algoritma Quick Sort memilih salah satu elemen dari array sebagai "pivot". Pilihan pivot ini bisa dilakukan dengan berbagai cara, salah satunya adalah dengan memilih elemen tengah dari array. Pemilihan pivot ini penting karena efisiensi algoritma Quick Sort sangat dipengaruhi oleh kualitas pilihan pivot.
+2. **Pengurutan Subarray**: Setelah pivot dipilih, elemen-elemen lain dalam array akan dibagi menjadi dua bagian, yaitu bagian yang lebih kecil dari pivot (kiri) dan bagian yang lebih besar dari pivot (kanan). Ini dilakukan dengan membandingkan setiap elemen dengan pivot, dan memindahkan elemen-elemen tersebut ke bagian yang sesuai.
+3. **Rekursi**: Setelah pembagian ini dilakukan, algoritma Quick Sort akan memanggil dirinya sendiri secara rekursif untuk mengurutkan dua subarray tersebut. Proses ini akan terus berlanjut sampai subarray memiliki ukuran yang cukup kecil untuk dianggap sudah terurut (misalnya, subarray hanya memiliki satu elemen).
+4. **Penggabungan**: Setelah seluruh subarray terurut, mereka digabungkan kembali menjadi satu array yang terurut. Ini relatif mudah dilakukan karena subarray-subarray ini sebelumnya sudah diurutkan.
+
+
+
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/ace3e92e-606b-49cf-89ff-f9121e64c33e">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/336e7ade-ebbc-4df9-9abb-9332f57e10aa">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/a053617b-cbc1-484d-88fe-2d9de0b817c0">
