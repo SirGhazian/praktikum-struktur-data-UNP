@@ -249,8 +249,10 @@ Bubble sort adalah salah satu algoritma pengurutan sederhana yang bekerja dengan
 
 <img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/d6a72a1f-245b-4809-ad7e-2247b89d9787">
 
-</br></br>
-Salah satu contoh penggunaan aplikasi yang menggunakan algoritma bubble sort, seperti dalam pencarian rute tercepat Google Maps, terletak pada proses pengurutan data. Algoritma bubble sort membandingkan dua elemen data secara berurutan dan menukar posisi mereka jika diperlukan, sehingga elemen-elemen dengan nilai yang lebih besar bergerak ke bagian akhir. Dalam konteks pencarian rute, aplikasi seperti Google Maps memanfaatkan algoritma kurang lebih algoritma bubble sort untuk mengurutkan pilihan rute berdasarkan berbagai faktor seperti jarak, waktu tempuh, dan kondisi lalu lintas, yang pada akhirnya memberikan pengguna pilihan rute tercepat atau terdekat.
+</br>  
+
+> [!NOTE]
+> Salah satu contoh penggunaan aplikasi yang menggunakan algoritma bubble sort, seperti dalam pencarian rute tercepat Google Maps, terletak pada proses pengurutan data. Algoritma bubble sort membandingkan dua elemen data secara berurutan dan menukar posisi mereka jika diperlukan, sehingga elemen-elemen dengan nilai yang lebih besar bergerak ke bagian akhir. Dalam konteks pencarian rute, aplikasi seperti Google Maps memanfaatkan algoritma kurang lebih algoritma bubble sort untuk mengurutkan pilihan rute berdasarkan berbagai faktor seperti jarak, waktu tempuh, dan kondisi lalu lintas, yang pada akhirnya memberikan pengguna pilihan rute tercepat atau terdekat.
 
 Berikut adalah penjelasan bagaimana bubble sort bekerja pada pencarian rute Google Maps:
 1. **Inisialisasi**: Pertama, setiap rute dalam map direpresentasikan sebagai simpul (node) dalam graf. Setiap simpul memiliki keterhubungan dengan simpul-simpul lain yang mewakili jalur-jalur yang bisa diambil dari satu titik ke titik lain.
@@ -268,8 +270,10 @@ Insertion search, atau pencarian sisipan, adalah algoritma pencarian sederhana y
 
 <img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/23d8a88e-e744-422b-9ce2-13ae9f613893">
 
-</br></br>
-Salah satu contoh penerapan algoritma insertion search dalam konteks aplikasi Bank BCA Mobile, adalah pada fitur pencarian transaksi. Ketika pengguna ingin mencari transaksi tertentu dalam riwayat transaksi mereka, algoritma insertion search dapat digunakan untuk mencari dan menemukan transaksi tersebut secara efisien dalam daftar transaksi yang sudah diurutkan berdasarkan tanggal atau jenis transaksi. Dengan demikian, pengguna dapat dengan cepat menemukan informasi yang mereka butuhkan tanpa harus secara manual melalui seluruh riwayat transaksi mereka.
+</br>  
+
+> [!NOTE]
+> Salah satu contoh penerapan algoritma insertion search dalam konteks aplikasi Bank BCA Mobile, adalah pada fitur pencarian transaksi. Ketika pengguna ingin mencari transaksi tertentu dalam riwayat transaksi mereka, algoritma insertion search dapat digunakan untuk mencari dan menemukan transaksi tersebut secara efisien dalam daftar transaksi yang sudah diurutkan berdasarkan tanggal atau jenis transaksi. Dengan demikian, pengguna dapat dengan cepat menemukan informasi yang mereka butuhkan tanpa harus secara manual melalui seluruh riwayat transaksi mereka.
 
 Berikut adalah penjelasan bagaimana insertion sort bekerja pada aplikasi BCA Mobile:
 
@@ -299,8 +303,10 @@ Algoritma Selection Sort adalah salah satu algoritma pengurutan yang sederhana n
 
 <img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/cedf7e28-a412-435f-883c-1bb4c20d88fe">
 
-</br></br>
-Agoda adalah salah satu aplikasi pemesanan hotel terkemuka di dunia yang menawarkan berbagai macam akomodasi, mulai dari hotel mewah hingga penginapan budget-friendly di destinasi wisata di seluruh dunia. Dalam konteks aplikasi ini, algoritma selection sort dapat digunakan untuk membantu pengguna dalam menemukan akomodasi yang paling sesuai dengan preferensi dan kebutuhan mereka.
+</br>  
+
+> [!NOTE]
+> Agoda adalah salah satu aplikasi pemesanan hotel terkemuka di dunia yang menawarkan berbagai macam akomodasi, mulai dari hotel mewah hingga penginapan budget-friendly di destinasi wisata di seluruh dunia. Dalam konteks aplikasi ini, algoritma selection sort dapat digunakan untuk membantu pengguna dalam menemukan akomodasi yang paling sesuai dengan preferensi dan kebutuhan mereka.
 
 Berikut adalah penjelasan bagaimana selection sort bekerja pada pengurutan hotel berdasarkan harga:
 1. **Inisialisasi Daftar Hotel**: Misalkan kita memiliki daftar hotel dengan harga per malam yang perlu diurutkan.
@@ -316,10 +322,10 @@ Merge sort adalah algoritma pengurutan yang bekerja dengan membagi array yang ak
 
 <img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/df706b4e-5307-405b-8dfb-8d074b1455be">
 
-</br></br>
-Dalam konteks aplikasi Photoshop atau perangkat lunak pengolah gambar lainnya, Merge Sort mungkin tidak digunakan secara langsung oleh pengguna saat berinteraksi dengan antarmuka pengguna. Namun, Merge Sort dapat menjadi bagian dari algoritma yang digunakan oleh Photoshop di belakang layar saat melakukan operasi tertentu.
+</br>  
 
-Salah satu contoh penggunaan Merge Sort di dalam Photoshop adalah ketika pengguna melakukan operasi pengurutan layer. Saat pengguna memiliki banyak layer dalam proyek gambar, mereka mungkin perlu mengurutkan layer berdasarkan berbagai kriteria, seperti nama, ukuran, opasitas, atau mode campuran.
+> [!NOTE]
+> Dalam konteks aplikasi Photoshop atau perangkat lunak pengolah gambar lainnya, Merge Sort mungkin tidak digunakan secara langsung oleh pengguna saat berinteraksi dengan antarmuka pengguna. Namun, Merge Sort dapat menjadi bagian dari algoritma yang digunakan oleh Photoshop di belakang layar saat melakukan operasi tertentu. Salah satu contoh penggunaan Merge Sort di dalam Photoshop adalah ketika pengguna melakukan operasi pengurutan layer. Saat pengguna memiliki banyak layer dalam proyek gambar, mereka mungkin perlu mengurutkan layer berdasarkan berbagai kriteria, seperti nama, ukuran, opasitas, atau mode campuran.
 
 Berikut adalah penjelasan bagaimana merge sort bekerja pada aplikasi Photoshop:
 1. **Persiapan Data**: Photoshop akan mengumpulkan informasi tentang setiap layer dalam proyek, seperti nama, ukuran, opasitas, dll., dan menyimpannya dalam struktur data yang sesuai.
@@ -342,8 +348,10 @@ Shell sort adalah algoritma pengurutan yang merupakan perbaikan dari insertion s
 
 <img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/ed448c66-1746-4e5e-9be9-126189170e31">
 
-</br></br>
-Microsoft Excel adalah program spreadsheet yang dikembangkan oleh perusahaan teknologi Microsoft. Ini merupakan bagian dari paket perangkat lunak Microsoft Office. Excel memungkinkan pengguna untuk membuat, mengatur, dan menganalisis data dalam bentuk tabel atau lembar kerja elektronik. Pengguna dapat melakukan berbagai tugas seperti penghitungan, visualisasi data, pembuatan grafik, dan analisis data dengan menggunakan fungsi dan formula yang disediakan.
+</br>  
+
+> [!NOTE]
+> Microsoft Excel adalah program spreadsheet yang dikembangkan oleh perusahaan teknologi Microsoft. Ini merupakan bagian dari paket perangkat lunak Microsoft Office. Excel memungkinkan pengguna untuk membuat, mengatur, dan menganalisis data dalam bentuk tabel atau lembar kerja elektronik. Pengguna dapat melakukan berbagai tugas seperti penghitungan, visualisasi data, pembuatan grafik, dan analisis data dengan menggunakan fungsi dan formula yang disediakan.
 
 Berikut adalah penjelasan bagaimana shell sort bekerja pada Microsoft Excel:
 1. **Memilih Jarak Incremental**: Pertama-tama, algoritma ini memilih serangkaian jarak incremental yang akan digunakan untuk memisahkan elemen-elemen dalam array. Ini dilakukan untuk mempercepat proses pengurutan dengan memungkinkan elemen-elemen yang jauh berdekatan untuk dibandingkan dan ditukar.
@@ -359,8 +367,10 @@ Quick sort adalah algoritma pengurutan yang efisien dan sering digunakan dalam p
 
 <img height="205" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/1f892388-2dd5-4ead-836e-ec78f8fddbdc">
 
-</br></br>
-Spotify adalah layanan streaming musik digital yang memungkinkan pengguna untuk mendengarkan jutaan lagu dari berbagai genre, artis, dan album secara online. Pengguna dapat mengakses musik melalui aplikasi desktop, web, atau perangkat seluler dengan langganan bulanan. Layanan ini menawarkan fitur seperti membuat daftar putar pribadi, menemukan musik baru melalui rekomendasi berbasis algoritma.
+</br>  
+
+> [!NOTE]
+> Spotify adalah layanan streaming musik digital yang memungkinkan pengguna untuk mendengarkan jutaan lagu dari berbagai genre, artis, dan album secara online. Pengguna dapat mengakses musik melalui aplikasi desktop, web, atau perangkat seluler dengan langganan bulanan. Layanan ini menawarkan fitur seperti membuat daftar putar pribadi, menemukan musik baru melalui rekomendasi berbasis algoritma.
 
 Berikut adalah penjelasan bagaimana quick sort bekerja pada aplikasi Spotify:
 1. **Pemilihan Elemen Pembanding (Pivot)**: Algoritma Quick Sort memilih salah satu elemen dari array sebagai "pivot". Pilihan pivot ini bisa dilakukan dengan berbagai cara, salah satunya adalah dengan memilih elemen tengah dari array. Pemilihan pivot ini penting karena efisiensi algoritma Quick Sort sangat dipengaruhi oleh kualitas pilihan pivot.
