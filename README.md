@@ -37,14 +37,13 @@ Dengan menyelesaikan Jobsheet 1 ini, kita akan memperoleh pemahaman yang mendala
 </a>
 <hr/>
 
-
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/154bdf8c-6c20-4401-ab8b-2daec584eb1c">  
-`✦ Array, Pointer, Structure ✦`
+`✦ Array, Pointer, Structure ✦`  
 
 ### ⭒ Array
 Array adalah kumpulan elemen yang memiliki tipe data yang sama dan disimpan dalam memori yang berdekatan. Setiap elemen dalam array dapat diakses menggunakan indeks, di mana indeks pertama dimulai dari 0.
 
-Contoh:
+**Contoh:**
 ```
 int arr[5];          // Deklarasi array integer dengan 5 elemen
 int arr2[5] = {1, 2, 3, 4, 5};  // Deklarasi dan inisialisasi array
@@ -53,7 +52,7 @@ int arr2[5] = {1, 2, 3, 4, 5};  // Deklarasi dan inisialisasi array
 ### ⭒ Pointer
 Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Dengan menggunakan pointer, kita bisa mengakses dan memanipulasi data yang disimpan di lokasi memori tertentu.
 
-Contoh:
+**Contoh:**
 ```
 int a = 10;
 int *p = &a; // Pointer p menyimpan alamat memori dari variabel a
@@ -62,7 +61,7 @@ int *p = &a; // Pointer p menyimpan alamat memori dari variabel a
 ### ⭒ Struct
 Structure adalah kumpulan dari variabel yang dapat memiliki tipe data yang berbeda-beda, dikelompokkan di bawah satu nama. Structure memungkinkan kita untuk mengelompokkan beberapa data yang berbeda dalam satu unit logis.
 
-Contoh:
+**Contoh:**
 ```
 struct Person {
     char name[50];
@@ -74,9 +73,8 @@ struct Person {
 </a>
 <hr/>
 
-
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/8b280a80-fb87-483e-b053-2625eb6a7b8b">
-`✦ Single Linked List ✦`
+`✦ Single Linked List ✦`  
 
 ### ⭒ Single Linked List
 Single Linked List adalah salah satu jenis struktur data yang terdiri dari rangkaian elemen yang disebut node. Setiap node dalam single linked list memiliki dua komponen utama: data dan pointer yang menunjuk ke node berikutnya dalam urutan. Struktur ini memungkinkan penyimpanan data secara dinamis dan sekuensial.
@@ -87,20 +85,66 @@ Single Linked List adalah salah satu jenis struktur data yang terdiri dari rangk
   - Pointer: Menunjuk ke node berikutnya dalam list.
 - Head: Pointer yang menunjuk ke node pertama dalam linked list. Jika linked list kosong, head akan menunjuk ke NULL.
 
-Contoh:
+**Contoh:**
 ```
 new_node->data = new_data;
 new_node->next = (*head_ref);
 (*head_ref) = new_node;
 ```
-
-
-
-
-
+</br>
+</a>
+<hr/>
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/47fc03ce-4c33-4f8a-bffd-0c3bb65bfcc3">
+`✦ Doubly Linked List ✦`  
+
+### ⭒ Doubly Linked List
+Doubly Linked List adalah salah satu jenis struktur data linked list yang memiliki dua penunjuk (pointer) pada setiap node, yaitu penunjuk ke node sebelumnya (prev) dan penunjuk ke node berikutnya (next). Hal ini memungkinkan traversal (penelusuran) dua arah, baik maju maupun mundur, yang membedakannya dari singly linked list yang hanya memiliki satu penunjuk ke node berikutnya.
+
+**Komponen Utama Doubly Linked List:**
+- Node: Elemen dasar dari linked list yang terdiri dari dua bagian:
+  - Data: Menyimpan nilai atau informasi.
+  - Pointer: Menunjuk ke node berikutnya dalam list.
+- Head: Pointer yang menunjuk ke node pertama dalam linked list.
+- Tail: Pointer yang menunjuk ke node terakhir dalam Doubly Linked List.
+
+**Contoh:**
+```
+struct Node {
+    int data;           // Data yang disimpan pada node
+    struct Node* prev;  // Pointer ke node sebelumnya
+    struct Node* next;  // Pointer ke node berikutnya
+};
+```
+
+**Kelebihan:**
+- Double Linked List dapat bergerak dalam dua arah, baik maju maupun mundur.
+- Proses penyisipan atau insert() simpul dapat dilakukan dengan lebih efisien.
+
+**Kelemahan:**
+- Setiap simpul dalam Double Linked List membutuhkan ruang memori tambahan untuk dua pointer.
+- Setiap operasi yang dilakukan harus menyertakan pointer ke simpul sebelumnya.
+
+</a>
+<hr/>
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/4253d696-acba-49ec-8579-a95d35666747">
+`✦ Circular Doubly Linked List ✦`  
+
+### ⭒ Circular Doubly Linked
+Circular Doubly Linked List adalah struktur data yang mengkombinasikan fitur dari doubly linked list dan circular linked list. Setiap node dalam list ini memiliki dua penunjuk (pointer), yaitu satu penunjuk ke node sebelumnya (prev) dan satu penunjuk ke node berikutnya (next). Selain itu, list ini bersifat melingkar di mana node terakhir menunjuk kembali ke node pertama dan node pertama menunjuk ke node terakhir.
+
+
+**Beberapa penjelasan fungsi umum:**
+- Struktur Node: Setiap node memiliki tiga bagian: data untuk menyimpan nilai, prev untuk menunjuk ke node sebelumnya, dan next untuk menunjuk ke node berikutnya.
+- createNode: Fungsi ini digunakan untuk membuat node baru dengan data yang diberikan.
+- insertAtEnd: Fungsi ini menambahkan node baru di akhir list. Jika list kosong, node baru menjadi head dan menunjuk ke dirinya sendiri (membentuk lingkaran). Jika tidak, node baru ditambahkan di akhir dan dihubungkan kembali ke head.
+- displayList: Fungsi ini menampilkan semua elemen dalam list dari awal hingga kembali ke head, dengan traversal dari head hingga kembali ke head.
+
+
+
+
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/88657d6f-1873-4306-9265-cb8fb76e7466">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/e679486d-7624-4caf-b7d3-06dee1e2b994">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b">
