@@ -307,9 +307,9 @@ Berikut adalah penjelasan bagaimana merge sort bekerja pada aplikasi Photoshop:
 4. **Pembaruan Tampilan**: Setelah pengurutan selesai, Photoshop akan memperbarui tampilan antarmuka pengguna untuk mencerminkan urutan baru dari layer-layer tersebut.
 5. **Sinkronisasi Data**: Photoshop juga harus memastikan bahwa perubahan urutan layer di antarmuka pengguna disinkronkan dengan perubahan yang sesuai dalam struktur data proyek.
 
-
-
-
+</br>
+</a>
+<hr/>
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f257220c-951b-4926-97b7-35d4eb960045">
 `✦ Shell Sort and Quick Sort ✦` 
