@@ -385,6 +385,8 @@ Binary search, atau pencarian biner, adalah metode pencarian yang lebih efisien 
 
 Pohon/tree adalah struktur data hierarkis yang terdiri dari simpul (nodes/vertex), dengan satu simpul utama disebut akar (root), dan simpul-simpul lainnya merupakan anak (child) yang terhubung melalui cabang (edges). Setiap simpul dapat memiliki nol atau lebih anak, dan tree tidak boleh mengandung siklus (cycles).
 
+<img height="290" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/7a96258b-2fa3-463b-88bf-0164bf1f88d3">
+
 **Berikut adalah contoh struktur data simpul tree:**
 ```
 struct TreeNode {
@@ -406,6 +408,9 @@ Di sini, data adalah nilai yang disimpan dalam simpul, left adalah pointer ke ch
 ### ⭒ Graphs
 
 Graphs adalah struktur data yang terdiri dari simpul-simpul yang terhubung melalui tepian atau edge. Setiap simpul dapat memiliki nilai atau atribut yang terkait dengannya. Graphs bisa direpresentasikan menggunakan matriks ketetanggaan atau daftar ketetanggaan. Operasi umum pada Graphs meliputi penambahan simpul, penambahan tepi, pencarian jalur, dan traversal untuk melakukan operasi pada setiap simpul atau tepi.
+
+<img height="290" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/e76a5f70-abbc-49a7-b3ab-7c78fa2ffb35">
+
 </br>
 </a>
 <hr/>
