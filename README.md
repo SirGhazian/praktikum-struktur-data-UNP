@@ -251,7 +251,6 @@ Berikut adalah penjelasan bagaimana bubble sort bekerja pada pencarian rute Goog
    - Jika bobot simpul pertama lebih besar dari simpul kedua (dalam konteks pencarian rute, ini berarti rute yang sedang dipertimbangkan lebih panjang dari rute berikutnya), maka kedua simpul tersebut ditukar.
 3. **Pengecekan**: Setelah satu iterasi selesai, algoritma memeriksa apakah ada pertukaran yang dilakukan. Jika tidak ada pertukaran yang dilakukan dalam satu iterasi, ini berarti data sudah terurut, dan algoritma dihentikan.
 4. **Penerapan pada Pencarian Rute Map**: Dalam konteks pencarian rute map, bobot atau jarak antara simpul-simpul mungkin adalah jarak fisik antara lokasi yang dihubungkan oleh rute tersebut. Bubble sort dapat digunakan untuk mengurutkan rute-rute berdasarkan jaraknya. Misalnya, jika kita ingin mencari rute terpendek dari titik A ke titik B, algoritma bubble sort dapat membantu kita mengurutkan daftar rute yang mungkin dari yang terpendek hingga yang terpanjang.
-<br>
 
 ### ⭒ Insertion Sort
 
@@ -300,7 +299,6 @@ Berikut adalah penjelasan bagaimana selection sort bekerja pada pengurutan hotel
 3. **Pencarian Harga Terkecil**: Bandingkan harga hotel pertama ini dengan semua harga hotel lainnya. Jika ditemukan harga yang lebih murah, catat indeks hotel dengan harga termurah tersebut.
 4. **Tukar Posisi**: Setelah membandingkan semua harga, tukar posisi hotel pertama dengan hotel yang memiliki harga termurah.
 5. **Ulangi untuk Elemen Berikutnya**: Pindah ke hotel kedua dalam daftar dan ulangi proses hingga semua hotel terurutkan berdasarkan harga.
-<br>
 
 ### ⭒ Merge Sort
 
@@ -344,7 +342,6 @@ Berikut adalah penjelasan bagaimana shell sort bekerja pada Microsoft Excel:
 3. **Pengurutan Berulang**: Proses pengurutan dengan Insertion Sort dilakukan berulang kali dengan jarak-jarak incremental yang semakin kecil setiap kali iterasi. Ini memungkinkan elemen-elemen untuk bergerak menuju posisi mereka yang tepat secara bertahap.
 4. **Penggabungan**: Setelah beberapa iterasi dengan jarak-jarak incremental yang berkurang, algoritma akhirnya melakukan pengurutan akhir dengan jarak incremental yang sama dengan 1. Pada titik ini, pengurutan sudah hampir selesai dan hanya memerlukan sedikit langkah tambahan untuk menyelesaikannya.
 5. **Pengurutan Akhir**: Dalam langkah terakhir, algoritma melakukan pengurutan akhir dengan menggunakan metode Insertion Sort pada seluruh array. Karena array sudah dalam keadaan hampir terurut, langkah ini memerlukan sedikit operasi dan memastikan bahwa array diurutkan secara keseluruhan.
-<br>
 
 ### ⭒ Quick Sort
 
