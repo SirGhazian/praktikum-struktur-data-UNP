@@ -281,7 +281,7 @@ Berikut adalah penjelasan bagaimana insertion sort bekerja pada aplikasi BCA Mob
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/77f59d7a-d0bf-442a-80e8-0fb7595513c7">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/77f59d7a-d0bf-442a-80e8-0fb7595513c7" id="jobsheet-09">
 `✦ Selection and Merge Sort ✦` 
 
 ### ⭒ Selection Sort
@@ -325,7 +325,7 @@ Berikut adalah penjelasan bagaimana merge sort bekerja pada aplikasi Photoshop:
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f257220c-951b-4926-97b7-35d4eb960045">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f257220c-951b-4926-97b7-35d4eb960045" id="jobsheet-10">
 `✦ Shell Sort and Quick Sort ✦` 
 
 ### ⭒ Shell Sort
@@ -365,9 +365,9 @@ Berikut adalah penjelasan bagaimana quick sort bekerja pada aplikasi Spotify:
 
 
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/ace3e92e-606b-49cf-89ff-f9121e64c33e">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/336e7ade-ebbc-4df9-9abb-9332f57e10aa">
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/a053617b-cbc1-484d-88fe-2d9de0b817c0">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/ace3e92e-606b-49cf-89ff-f9121e64c33e" id="jobsheet-11">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/336e7ade-ebbc-4df9-9abb-9332f57e10aa" id="jobsheet-12">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/a053617b-cbc1-484d-88fe-2d9de0b817c0" id="jobsheet-13">
 
 
 ## Kontribusi
