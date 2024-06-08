@@ -125,6 +125,7 @@ struct Node {
 - Setiap simpul dalam Double Linked List membutuhkan ruang memori tambahan untuk dua pointer.
 - Setiap operasi yang dilakukan harus menyertakan pointer ke simpul sebelumnya.
 
+</br>
 </a>
 <hr/>
 
@@ -141,9 +142,9 @@ Circular Doubly Linked List adalah struktur data yang mengkombinasikan fitur dar
 - insertAtEnd: Fungsi ini menambahkan node baru di akhir list. Jika list kosong, node baru menjadi head dan menunjuk ke dirinya sendiri (membentuk lingkaran). Jika tidak, node baru ditambahkan di akhir dan dihubungkan kembali ke head.
 - displayList: Fungsi ini menampilkan semua elemen dalam list dari awal hingga kembali ke head, dengan traversal dari head hingga kembali ke head.
 
-
-
-
+</br>
+</a>
+<hr/>
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/88657d6f-1873-4306-9265-cb8fb76e7466">
 `✦ Stack ✦`  
@@ -166,12 +167,56 @@ Stack atau dalam bahasa Indonesia disebut tumpukan, adalah struktur data linier 
 - `pop`: Fungsi ini mengeluarkan elemen teratas dari stack. Jika stack kosong, akan menampilkan pesan "Stack underflow".
 - `peek`: Fungsi ini mengembalikan elemen teratas tanpa mengeluarkannya dari stack.
 
-
-
-
-
+</br>
+</a>
+<hr/>
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/e679486d-7624-4caf-b7d3-06dee1e2b994">
+`✦ Queue ✦`  
+
+### ⭒ Queue
+Queue adalah salah satu struktur data yang bekerja berdasarkan prinsip FIFO (First In, First Out), yang berarti elemen yang pertama kali dimasukkan akan menjadi elemen pertama yang dikeluarkan. Queue sering digunakan dalam berbagai aplikasi seperti penjadwalan tugas, manajemen antrean di sistem operasi, dan lain-lain.
+
+**Contoh Enqueue (Menambahkan Elemen ke Queue):**
+```
+void enqueue(Queue *q, int value) {
+    if (isFull(q)) {
+        printf("Queue is full\n");
+        return;
+    }
+    if (q->front == -1) {
+        q->front = 0;
+    }
+    q->rear++;
+    q->items[q->rear] = value;
+    printf("Inserted %d\n", value);
+}
+```
+
+**Contoh Dequeue (Menghapus Elemen dari Queue):**
+```
+int dequeue(Queue *q) {
+    int item;
+    if (isEmpty(q)) {
+        printf("Queue is empty\n");
+        return -1;
+    }
+    item = q->items[q->front];
+    q->front++;
+    if (q->front > q->rear) {
+        q->front = q->rear = -1; // Reset Queue jika sudah kosong
+    }
+    return item;
+}
+```
+
+Dengan menggunakan queue, kita dapat mengelola data dengan cara yang efisien, terutama dalam situasi di mana urutan pengambilan data harus sesuai dengan urutan pertama kali data tersebut dimasukkan, seperti dalam sistem antrian tiket atau pemrosesan tugas dalam sistem operasi.
+
+</br>
+</a>
+<hr/>
+
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/77f59d7a-d0bf-442a-80e8-0fb7595513c7">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f257220c-951b-4926-97b7-35d4eb960045">
