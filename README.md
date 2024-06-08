@@ -13,7 +13,7 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 ## Daftar Isi
 - [Kontribusi](#kontribusi)
 - [Informasi Dosen](#informasi-dosen)
-- [About & Help](#about)
+- [About & Help](https://github.com/SirGhazian/praktikum-struktur-data-UNP?tab=readme-ov-file#about--help)
 
 
 </a>
