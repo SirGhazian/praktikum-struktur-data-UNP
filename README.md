@@ -13,13 +13,13 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 ## Daftar Isi
 - [Kontribusi](#kontribusi)
 - [Informasi Dosen](#informasi-dosen)
-- [About & Help](https://github.com/SirGhazian/praktikum-struktur-data-UNP?tab=readme-ov-file#about--help)
+- [About & Help](#gambar)
 
 
 </a>
 <hr/> 
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f36455e4-c903-42b8-b9ff-429f1e3d314a">
+## <img height="50" href="#gambar" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f36455e4-c903-42b8-b9ff-429f1e3d314a">
 `✦ Pengenalan Struktur Data ✦`
 
 Pada Jobsheet 1, materi yang dibahas adalah berbagai konsep dasar dan penting dalam pemrograman C yang akan membantu kita memahami dan mengimplementasikan struktur data dengan lebih efektif. Materi yang dibahas meliputi:
