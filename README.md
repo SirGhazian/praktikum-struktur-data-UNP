@@ -171,6 +171,8 @@ Circular Doubly Linked List adalah struktur data yang mengkombinasikan fitur dar
 ### ⭒ Stack
 Stack atau dalam bahasa Indonesia disebut tumpukan, adalah struktur data linier yang mengikuti prinsip Last In First Out (LIFO). Artinya, elemen yang terakhir dimasukkan akan menjadi elemen pertama yang dikeluarkan. Stack dapat diimplementasikan menggunakan array atau linked list
 
+<img width="290" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/61bd2622-3ddc-490c-a03b-849894880be9">
+
 **Fungsi Utama:**
 - `push()`: Menambahkan elemen baru ke puncak stack.
 - `pop()`: Menghapus dan mengembalikan elemen teratas dari stack.
@@ -195,6 +197,8 @@ Stack atau dalam bahasa Indonesia disebut tumpukan, adalah struktur data linier 
 
 ### ⭒ Queue
 Queue adalah salah satu struktur data yang bekerja berdasarkan prinsip FIFO (First In, First Out), yang berarti elemen yang pertama kali dimasukkan akan menjadi elemen pertama yang dikeluarkan. Queue sering digunakan dalam berbagai aplikasi seperti penjadwalan tugas, manajemen antrean di sistem operasi, dan lain-lain.
+
+<img width="290" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f6fc3311-c146-4c5f-bdf0-b310625fa50b">
 
 **Contoh Enqueue (Menambahkan Elemen ke Queue):**
 ```
