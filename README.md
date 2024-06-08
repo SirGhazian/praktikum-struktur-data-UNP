@@ -146,6 +146,31 @@ Circular Doubly Linked List adalah struktur data yang mengkombinasikan fitur dar
 
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/88657d6f-1873-4306-9265-cb8fb76e7466">
+`✦ Stack ✦`  
+
+### ⭒ Stack
+Stack atau dalam bahasa Indonesia disebut tumpukan, adalah struktur data linier yang mengikuti prinsip Last In First Out (LIFO). Artinya, elemen yang terakhir dimasukkan akan menjadi elemen pertama yang dikeluarkan. Stack dapat diimplementasikan menggunakan array atau linked list
+
+**Fungsi Utama:**
+- `push()`: Menambahkan elemen baru ke puncak stack.
+- `pop()`: Menghapus dan mengembalikan elemen teratas dari stack.
+- `peek()`: Mengembalikan elemen teratas tanpa menghapusnya dari stack.
+- `isEmpty()`: Memeriksa apakah stack kosong.
+- `isFull()`: Memeriksa apakah stack penuh (jika menggunakan array dengan kapasitas tetap).
+
+**Penjelasan:**
+- `initStack`: Fungsi ini menginisialisasi stack dengan mengatur top ke -1.
+- `isEmpty`: Fungsi ini memeriksa apakah stack kosong.
+- `isFull`: Fungsi ini memeriksa apakah stack penuh.
+- `push`: Fungsi ini menambahkan elemen baru ke dalam stack. Jika stack penuh, akan menampilkan pesan "Stack overflow".
+- `pop`: Fungsi ini mengeluarkan elemen teratas dari stack. Jika stack kosong, akan menampilkan pesan "Stack underflow".
+- `peek`: Fungsi ini mengembalikan elemen teratas tanpa mengeluarkannya dari stack.
+
+
+
+
+
+
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/e679486d-7624-4caf-b7d3-06dee1e2b994">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b">
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/77f59d7a-d0bf-442a-80e8-0fb7595513c7">
