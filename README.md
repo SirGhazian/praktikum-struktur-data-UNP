@@ -93,6 +93,8 @@ struct Person {
 ### ⭒ Single Linked List
 Single Linked List adalah salah satu jenis struktur data yang terdiri dari rangkaian elemen yang disebut node. Setiap node dalam single linked list memiliki dua komponen utama: data dan pointer yang menunjuk ke node berikutnya dalam urutan. Struktur ini memungkinkan penyimpanan data secara dinamis dan sekuensial.
 
+<img width="390" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/79c8f911-66ed-4a4f-9254-aae9289fa687">
+
 **Komponen Utama Single Linked List:**
 - Node: Elemen dasar dari linked list yang terdiri dari dua bagian:
   - Data: Menyimpan nilai atau informasi.
@@ -111,6 +113,8 @@ new_node->next = (*head_ref);
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/47fc03ce-4c33-4f8a-bffd-0c3bb65bfcc3" id="jobsheet-04">
 `✦ Doubly Linked List ✦`  
+
+<img width="390" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/3391a4b4-49d5-43d2-9873-45c1d0536c26">
 
 ### ⭒ Doubly Linked List
 Doubly Linked List adalah salah satu jenis struktur data linked list yang memiliki dua penunjuk (pointer) pada setiap node, yaitu penunjuk ke node sebelumnya (prev) dan penunjuk ke node berikutnya (next). Hal ini memungkinkan traversal (penelusuran) dua arah, baik maju maupun mundur, yang membedakannya dari singly linked list yang hanya memiliki satu penunjuk ke node berikutnya.
@@ -145,6 +149,8 @@ struct Node {
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/4253d696-acba-49ec-8579-a95d35666747" id="jobsheet-05">
 `✦ Circular Doubly Linked List ✦`  
+
+<img width="390" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/024867e5-4484-4f7b-8bf3-650c9cfb4d83">
 
 ### ⭒ Circular Doubly Linked
 Circular Doubly Linked List adalah struktur data yang mengkombinasikan fitur dari doubly linked list dan circular linked list. Setiap node dalam list ini memiliki dua penunjuk (pointer), yaitu satu penunjuk ke node sebelumnya (prev) dan satu penunjuk ke node berikutnya (next). Selain itu, list ini bersifat melingkar di mana node terakhir menunjuk kembali ke node pertama dan node pertama menunjuk ke node terakhir.
