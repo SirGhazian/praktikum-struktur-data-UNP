@@ -15,6 +15,20 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 - [Informasi Dosen](#informasi-dosen)
 - [About & Help](#about)
 
+## Daftar Jobsheet
+- [Jobsheet 1](#jobsheet-01)
+- [Jobsheet 2](#jobsheet-02)
+- [Jobsheet 3](#jobsheet-03)
+- [Jobsheet 4](#jobsheet-04)
+- [Jobsheet 5](#jobsheet-05)
+- [Jobsheet 6](#jobsheet-06)
+- [Jobsheet 7](#jobsheet-07)
+- [Jobsheet 8](#jobsheet-08)
+- [Jobsheet 9](#jobsheet-09)
+- [Jobsheet 10](#jobsheet-10)
+- [Jobsheet 11](#jobsheet-11)
+- [Jobsheet 12](#jobsheet-12)
+- [Jobsheet 13](#jobsheet-13)
 
 </a>
 <hr/> 
@@ -37,7 +51,7 @@ Dengan menyelesaikan Jobsheet 1 ini, kita akan memperoleh pemahaman yang mendala
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/154bdf8c-6c20-4401-ab8b-2daec584eb1c">  
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/154bdf8c-6c20-4401-ab8b-2daec584eb1c" id="jobsheet-02">  
 `✦ Array, Pointer, Structure ✦`  
 
 ### ⭒ Array
@@ -73,7 +87,7 @@ struct Person {
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/8b280a80-fb87-483e-b053-2625eb6a7b8b">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/8b280a80-fb87-483e-b053-2625eb6a7b8b" id="jobsheet-03">
 `✦ Single Linked List ✦`  
 
 ### ⭒ Single Linked List
@@ -95,7 +109,7 @@ new_node->next = (*head_ref);
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/47fc03ce-4c33-4f8a-bffd-0c3bb65bfcc3">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/47fc03ce-4c33-4f8a-bffd-0c3bb65bfcc3" id="jobsheet-04">
 `✦ Doubly Linked List ✦`  
 
 ### ⭒ Doubly Linked List
@@ -129,7 +143,7 @@ struct Node {
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/4253d696-acba-49ec-8579-a95d35666747">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/4253d696-acba-49ec-8579-a95d35666747" id="jobsheet-05">
 `✦ Circular Doubly Linked List ✦`  
 
 ### ⭒ Circular Doubly Linked
@@ -146,7 +160,7 @@ Circular Doubly Linked List adalah struktur data yang mengkombinasikan fitur dar
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/88657d6f-1873-4306-9265-cb8fb76e7466">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/88657d6f-1873-4306-9265-cb8fb76e7466" id="jobsheet-06">
 `✦ Stack ✦`  
 
 ### ⭒ Stack
@@ -171,7 +185,7 @@ Stack atau dalam bahasa Indonesia disebut tumpukan, adalah struktur data linier 
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/e679486d-7624-4caf-b7d3-06dee1e2b994">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/e679486d-7624-4caf-b7d3-06dee1e2b994" id="jobsheet-07">
 `✦ Queue ✦`  
 
 ### ⭒ Queue
@@ -216,7 +230,7 @@ Dengan menggunakan queue, kita dapat mengelola data dengan cara yang efisien, te
 </a>
 <hr/>
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b" id="jobsheet-08">
 `✦ Bubble and Insertion Sort ✦` 
 
 ### ⭒ Bubble Sort
