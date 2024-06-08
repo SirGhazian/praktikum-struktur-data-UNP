@@ -13,13 +13,13 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 ## Daftar Isi
 - [Kontribusi](#kontribusi)
 - [Informasi Dosen](#informasi-dosen)
-- [About & Help](#gambar)
+- [About & Help](#about)
 
 
 </a>
 <hr/> 
 
-## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f36455e4-c903-42b8-b9ff-429f1e3d314a" id="gambar">
+## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/f36455e4-c903-42b8-b9ff-429f1e3d314a" id="jobsheet-01">
 `✦ Pengenalan Struktur Data ✦`
 
 Pada Jobsheet 1, materi yang dibahas adalah berbagai konsep dasar dan penting dalam pemrograman C yang akan membantu kita memahami dan mengimplementasikan struktur data dengan lebih efektif. Materi yang dibahas meliputi:
@@ -371,5 +371,5 @@ Saya menyambut kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan
 `Lecturer in Informatics` </br></br>
 Randi completed his graduate degree at the Graduate Institute of Network Learning Technology, National Central University, Taiwan. He is a lecturer in the Informatics Bachelor Program at Universitas Negeri Padang, with interests in learning analytics, UI/UX design, software engineering project management, AI-supported educational technologies, and educational data mining. He has training from Microsoft, INTEL, AWS, and the Python Institute, and is a Google Certified Educator and Adobe Creative Educator.
 
-## About & Help
+## <a id="about"></a>About & Help
 Untuk bantuan dan pertanyaan, silahkan hubungi [Instagram](https://www.instagram.com/ghazian_tza/) saya.
