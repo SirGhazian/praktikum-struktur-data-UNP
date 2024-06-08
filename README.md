@@ -5,17 +5,17 @@
 
 Repository ini berisi tugas-tugas dari modul mata kuliah Praktikum Struktur Data Universitas Negeri Padang yang dibimbing oleh pak dosen Randi Proska Sandra, S.Pd, M.Sc.
 
-## Tentang Repository
+## 【 Tentang Repository 】
 <img align="right" alt="Coding" width="60" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/0d1d6e1a-91a2-4a33-8bc8-3a80fbcb54d4">
 
 Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplementasikan menggunakan bahasa pemrograman C. Program-program ini dibuat berdasarkan latihan-latihan yang bersumber dari modul, sehingga dapat membantu dalam memahami konsep dan penerapan bahasa C.
 
-## Daftar Isi
+## 【 Daftar Isi 】
 - [Kontribusi](#kontribusi)
 - [Informasi Dosen](#informasi-dosen)
 - [About & Help](#about)
 
-## Daftar Jobsheet
+## 【 Daftar Jobsheet 】
 - [Jobsheet 1](#jobsheet-01)
 - [Jobsheet 2](#jobsheet-02)
 - [Jobsheet 3](#jobsheet-03)
@@ -435,7 +435,7 @@ Graphs adalah struktur data yang terdiri dari simpul-simpul yang terhubung melal
 <hr/>
 <hr/>
 
-## Kontribusi
+## <a id="kontribusi"></a>【 Kontribusi 】
 Saya menyambut kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan fork repository ini, buat branch baru untuk perubahan Anda, dan ajukan pull request. Pastikan untuk memberikan deskripsi yang jelas tentang apa yang Anda ubah dan mengapa.
 1. Fork repository ini.
 2. Buat branch fitur baru: `git checkout -b fitur-anda`.
@@ -443,14 +443,14 @@ Saya menyambut kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan
 4. Push ke branch: `git push origin fitur-anda`.
 5. Buat pull request baru.
 
-## Informasi Dosen
+## <a id="informasi-dosen"></a>【 Informasi Dosen 】
 <img align="left" width="160" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/58bffcd0-9983-4a84-9fc6-857c625cb609">
 
 **Randi Proska Sandra, S.Pd, M.Sc** </br>
 `Lecturer in Informatics` </br></br>
 Randi completed his graduate degree at the Graduate Institute of Network Learning Technology, National Central University, Taiwan. He is a lecturer in the Informatics Bachelor Program at Universitas Negeri Padang, with interests in learning analytics, UI/UX design, software engineering project management, AI-supported educational technologies, and educational data mining. He has training from Microsoft, INTEL, AWS, and the Python Institute, and is a Google Certified Educator and Adobe Creative Educator.
 
-## <a id="about"></a>About & Help
+## <a id="about"></a>【 About and Help 】
 
 Untuk bantuan dan pertanyaan, silahkan hubungi sosial media saya:
 - [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ghazian_tza)
