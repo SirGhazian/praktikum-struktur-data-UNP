@@ -16,19 +16,19 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 - [About & Help](#about)
 
 ## 【 Daftar Jobsheet 】
-- [Jobsheet 1](#jobsheet-01)
-- [Jobsheet 2](#jobsheet-02)
-- [Jobsheet 3](#jobsheet-03)
-- [Jobsheet 4](#jobsheet-04)
-- [Jobsheet 5](#jobsheet-05)
-- [Jobsheet 6](#jobsheet-06)
-- [Jobsheet 7](#jobsheet-07)
-- [Jobsheet 8](#jobsheet-08)
-- [Jobsheet 9](#jobsheet-09)
-- [Jobsheet 10](#jobsheet-10)
-- [Jobsheet 11](#jobsheet-11)
-- [Jobsheet 12](#jobsheet-12)
-- [Jobsheet 13](#jobsheet-13)
+- [Jobsheet 1 -- Pengenalan Struktur Data](#jobsheet-01)
+- [Jobsheet 2 -- Array, Pointer, Structure](#jobsheet-02)
+- [Jobsheet 3 -- Single Linked List](#jobsheet-03)
+- [Jobsheet 4 -- Doubly Linked List](#jobsheet-04)
+- [Jobsheet 5 -- Circular Doubly Linked List](#jobsheet-05)
+- [Jobsheet 6 -- Stack](#jobsheet-06)
+- [Jobsheet 7 -- Queue](#jobsheet-07)
+- [Jobsheet 8 -- Bubble Sort and Insertion Sort](#jobsheet-08)
+- [Jobsheet 9 -- Selection Sort and Merge Sort](#jobsheet-09)
+- [Jobsheet 10 -- Shell Sort and Quick Sort](#jobsheet-10)
+- [Jobsheet 11 -- Linear Search and Binary Search](#jobsheet-11)
+- [Jobsheet 12 -- Tree](#jobsheet-12)
+- [Jobsheet 13 -- Graphs](#jobsheet-13)
 
 </a>
 <hr/> 
@@ -240,7 +240,7 @@ Dengan menggunakan queue, kita dapat mengelola data dengan cara yang efisien, te
 <hr/>
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/6960d85a-c1fa-463a-955c-24fc0e1a748b" id="jobsheet-08">
-`✦ Bubble and Insertion Sort ✦` 
+`✦ Bubble Sort and Insertion Sort ✦` 
 
 ### ⭒ Bubble Sort
 
@@ -294,7 +294,7 @@ Berikut adalah penjelasan bagaimana insertion sort bekerja pada aplikasi BCA Mob
 <hr/>
 
 ## <img height="50" src="https://github.com/SirGhazian/praktikum-struktur-data-UNP/assets/142916107/77f59d7a-d0bf-442a-80e8-0fb7595513c7" id="jobsheet-09">
-`✦ Selection and Merge Sort ✦` 
+`✦ Selection Sort and Merge Sort ✦` 
 
 ### ⭒ Selection Sort
 
